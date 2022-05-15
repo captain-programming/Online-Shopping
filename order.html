@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Order</title>
+    <link rel="stylesheet" href="./Style/navbar.css">
+    <link rel="stylesheet" href="./Style/order.css">
+</head>
+<body>
+    <div id="navbar"></div>
+    <div id="address">
+        <label>Contry/Region</label><br>
+        <select id="country" required>
+            <option value="India">India</option>
+            <option value="China">China</option>
+            <option value="Pakistan">Pakistan</option>
+            <option value="Amerika">Amerika</option>
+        </select><br>
+        <label>Full Name</label><br>
+        <input id="name" required type="text"><br>
+        <label>Mobile Number</label><br>
+        <input id="mobile" required type="tel"><br>
+        <label>Pincode</label><br>
+        <input id="pincode" required type="number"><br>
+        <label>Address</label><br>
+        <input id="address1" required type="text"><br> 
+        <label>Delevary Option</label><br>
+        <select id="delevary-option" required>
+            <option value="cod">Cash on delevary</option>
+            <option value="online">Online Payment</option>
+        </select><br>
+        <input id="submit" type="submit">
+    </div>
+</body>
+</html>
+<script src="./Scripts/order.js" type="module"></script>

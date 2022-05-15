@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    /* background-color: #0080FF; */
+}
+#popup{
+    position: absolute;
+    left: 50%;
+    top:50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    opacity: 0;
+    visibility: hidden;
+    transition: top 0ms ease-in-out 200ms,
+                opacity 200ms ease-in-out 0ms,
+                transform 20ms ease-in-out 0ms;
+}
+#popup.active{
+    opacity: 1;
+    visibility: visible;
+    transition: top 0ms ease-in-out 200ms,
+                opacity 200ms ease-in-out 200ms,
+                transform 20ms ease-in-out 200ms;
+}
+#form1{
+    /* background-color: white; */
+    width: 25%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    padding:10px 50px 50px 50px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+#form1 .close-btn{
+    position: relative;
+    left: 100%;
+    width: 15px;
+    /* height: 25px; */
+    padding: 5px;
+    /* font-size: 25px; */
+    cursor: pointer;
+}
+#form1 h2{
+    padding-bottom: 30px;
+}
+#form1 input{
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+#form1 select{
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    color: rgb(39, 37, 37);
+}
+#form1 #submit-info{
+    background-color: black;
+    width: 50%;
+    margin: auto;
+    color: white;
+    cursor: pointer;
+    border-radius: 10px;
+}
+#form1 #submit-info:hover{
+    background-color: blue;
+}
+#form1 #acc{
+    padding-top: 11px;
+}
+#form1 #acc .signup-now{
+    padding-left: 11px;
+    color: blue; 
+    cursor: pointer;
+}
+#form1 #acc .login1-now{
+    padding-left: 11px;
+    color: blue; 
+    cursor: pointer;
+}

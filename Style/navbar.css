@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+}
+
+#navbar{
+    background-color: #0080FF;
+    display: flex;
+    height: 40px;
+    color:white;
+}
+#navbar div a img{
+    width: 21.4%;
+    height: 100%;
+    border: 1px solid #0080FF;
+    border-radius: 50px;
+}
+#navbar div{
+    /* border: 1px solid; */
+    display: flex;
+    flex: 1;
+    justify-content: space-around;
+    align-items: center;
+    cursor: pointer;
+}
+#navbar div a{
+    text-decoration: none;
+    color: white;
+}

@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+}
+#product{
+    padding: 50px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+}
+#product div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 10px;
+    padding: 20px;
+    line-height: 25px;
+    cursor: pointer;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+#product div img{
+    width: 100%;
+}
+#product div h4{
+    font-size: 15px;
+    font-weight: 600;
+}
+#product div p{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: red;
+}
+#product div button{
+    padding:7px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+#product div button:hover{
+    color: blue;
+}

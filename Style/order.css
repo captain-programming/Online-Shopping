@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+}
+#address{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin: auto;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    padding: 20px;
+}
+#address input{
+    padding: 5px;
+}
+#address select{
+    padding: 5px;
+}
+#address #submit{
+    width: 50%;
+    margin: auto;
+    border-radius: 10px;
+    border: 1pt solid gray;
+    padding: 10px;
+}
+#address #submit:hover{
+    background-color: blue;
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+}
